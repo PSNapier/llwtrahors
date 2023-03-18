@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/genetics', function () {
+    return view('genetics');
+});
+
 Route::get('/', function () {
     return view('landing');
 });
