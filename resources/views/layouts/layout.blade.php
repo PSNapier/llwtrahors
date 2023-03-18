@@ -18,14 +18,11 @@
 	@vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-sans antialiased bg-neutral-100 text-neutral-800 select-none">
+<body class="font-sans antialiased bg-neutral-100 text-neutral-800">
 	<div>
 	{{-- <div class="min-h-screen min-w-fit bg-neutral-100 text-neutral-800"> --}}
 		<!-- Header -->
-		<header x-data="{ navOpen: false }">
-			<x-nav-mobile class="sm:hidden" />
-			<x-nav-desktop class="" />
-		</header>
+		<x-nav-desktop />
 
 		<main class="text-neutral">
 			<div class="flex justify-center text-neutral">
