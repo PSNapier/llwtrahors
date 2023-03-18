@@ -32,7 +32,7 @@
 		</main>
 	</div>
 
-	<footer class="text-center p-2">
+	<footer class="mt-4 p-2 text-center">
 		<div>
 			<p>Copyright © 2023 Abature Studio</p>
 		</div>
