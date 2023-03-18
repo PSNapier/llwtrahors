@@ -22,7 +22,7 @@
 	<div>
 	{{-- <div class="min-h-screen min-w-fit bg-neutral-100 text-neutral-800"> --}}
 		<!-- Header -->
-		<x-nav-desktop />
+		<x-nav />
 
 		<main class="text-neutral">
 			<div class="flex justify-center text-neutral">

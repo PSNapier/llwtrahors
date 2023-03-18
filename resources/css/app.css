@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 h1 {
-	@apply mt-4 text-xl font-bold uppercase border-b-2
+	@apply text-xl font-bold uppercase border-b-2
 }
 
 h2 {
-	@apply mt-4 text-lg font-semibold
+	@apply text-lg font-semibold
 }
 
 .accent-shadow {
