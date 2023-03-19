@@ -8,8 +8,8 @@
 			<li><a href="{{ url('#vouchers') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">vouchers</span></a></li>
 			<li>
 				<ul class="[&>*]:ml-7 [&>*]:capitalize">
-					<li><a href="{{ url('#activity vouchers') }}"><span class="text-green-500">⨁</span> <span class="capitalize font-semibold">activity voucher</span></a></li>
-					<li><a href="{{ url('#breeding vouchers') }}"><span class="text-green-500">⨁</span> <span class="capitalize font-semibold">breeding voucher</span></a></li>
+					<li><a href="{{ url('#activity voucher') }}"><span class="text-green-500">⨁</span> <span class="capitalize font-semibold">activity voucher</span></a></li>
+					<li><a href="{{ url('#breeding voucher') }}"><span class="text-green-500">⨁</span> <span class="capitalize font-semibold">breeding voucher</span></a></li>
 				</ul>
 			</li>
 			<li><a href="{{ url('#tokens') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">tokens</span></a></li>
