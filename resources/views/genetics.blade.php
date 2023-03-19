@@ -5,31 +5,33 @@
 	{{-- Index --}}
 	<section id="index" class="select-none">
 		<ul>
+			{{-- <li><a href="{{ url('#rarities') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">rarities</span></a></li> --}}
 			<li><a href="{{ url('#gwelw') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">gwelw</span></a></li>
 			<li><a href="{{ url('#bases') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">bases</span></a></li>
 			<li>
 				<ul class="[&>*]:ml-7 [&>*]:capitalize">
 					<li><a href="{{ url('#stori') }}"><span class="text-green-500">⨁</span> stori</a></li>
-					<li><a href="{{ url('#bae') }}"><span class="text-green-500">⨁</span> bae</a></li>
 					<li><a href="{{ url('#siocled') }}"><span class="text-green-500">⨁</span> siocled</a></li>
+					<li><a href="{{ url('#bae') }}"><span class="text-green-500">⨁</span> bae</a></li>
 					<li><a href="{{ url('#llaid') }}"><span class="text-green-500">⨁</span> llaid</a></li>
 					<li><a href="{{ url('#du') }}"><span class="text-green-500">⨁</span> du</a></li>
 				</ul>
 			</li>
-			<li><a href="{{ url('#cream') }}"><span class="text-green-500">ᛚᛖ</span> <span class="font-semibold">Cream</span></a></li>
+			<li><a href="{{ url('#cream') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">cream</span></a></li>
+			<li><a href="{{ url('#butter') }}"><span class="text-green-500">ᛚᛖ</span> <span class="capitalize font-semibold">butter</span></a></li>
 		</ul>
 	</section>
 
-	{{-- Info --}}
-	<section id="info">
-		<p class="italic">NOTE: All examples are shown with <a href="#gwelw" class="underline">gwelw</a> unless otherwise specified.</p>
-	</section>
+	{{-- <section id="rarities">
+		<h1>Rarities</h1>
+		<p>Fancy graph generated from logbook stats to be added~ 📊</p>
+	</section> --}}
 
 	{{-- Gwelw --}}
 	<section id="gwelw">
 		<h1>Gwelw</h1>
 		<p>Similiar to pangare, gwelw lightens the muzzle, throatlatch, girth area and canons of the horse, up to the entire underline. Dom/rec does not affect appearance.</p>
-		<p class="italic">INFO: Gwelw means 'pale' in Welsh!</p>
+		<p class="italic">NOTE: All examples are shown with <a href="#gwelw" class="underline">gwelw</a> unless otherwise specified</p>
 		<div class="grid lg:grid-cols-2 gap-4 mt-4">
 			<x-genetics-base-example name="gwelw min" genes="GG/nG" />
 			<x-genetics-base-example name="gwelw max" genes="GG/nG" />

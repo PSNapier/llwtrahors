@@ -20,6 +20,10 @@ Route::get('/getting-started', function () {
     return view('getting-started');
 });
 
+Route::get('/items', function () {
+    return view('items');
+});
+
 Route::get('/genetics', function () {
     return view('genetics');
 });
