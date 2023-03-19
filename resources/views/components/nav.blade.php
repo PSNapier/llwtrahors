@@ -4,7 +4,7 @@
 			<div class="font-bold text-green-500">Llwtrahors</div>
 			<ul class="flex flex-wrap gap-x-5 [&>*]:min-w-fit">
 				<li class="accent-shadow"><a href="{{ url('/') }}">🌿 Getting Started</a></li>
-				<li class="accent-shadow"><a href="{{ url('/') }}">💎 Items</a></li>
+				<li class="accent-shadow"><a href="{{ url('/items') }}">💎 Items</a></li>
 				<li class="accent-shadow"><a href="{{ url('/genetics') }}">🧬 Genetics</a></li>
 				<li class="accent-shadow"><a href="{{ url('/') }}">📜 Logbook</a></li>
 				<li class="accent-shadow"><a href="{{ url('/') }}">🏅 Leaderboards</a></li>
