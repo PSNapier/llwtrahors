@@ -47,12 +47,17 @@ p + p {
 	mask-image: url(../../public/images/breakdown/llwtrahors-eye.webp);
 }
 
+#breakdown-bodygwelwmin {
+	@apply bg-neutral-300;
+	mask-image: url(../../public/images/breakdown/llwtrahors-bodygwelwmin.webp);
+}
+
 #breakdown-body {
 	@apply bg-neutral-400;
 	mask-image: url(../../public/images/breakdown/llwtrahors-body.webp);
 }
 
 #breakdown-hooves {
-	@apply bg-neutral-400;
+	@apply bg-neutral-700;
 	mask-image: url(../../public/images/breakdown/llwtrahors-hooves.webp);
 }
