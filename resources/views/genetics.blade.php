@@ -32,7 +32,7 @@
 		<h1>Gwelw</h1>
 		<p>Similiar to pangare, gwelw lightens the muzzle, throatlatch, girth area and canons of the horse, up to the entire underline. Dom/rec does not affect appearance.</p>
 		<p class="italic">NOTE: All examples are shown with <a href="#gwelw" class="underline">gwelw</a> unless otherwise specified</p>
-		<div class="grid lg:grid-cols-2 gap-4 mt-4">
+		<div class="grid lg:grid-cols-3 gap-4 mt-4">
 			<x-genetics-base-example name="gwelw min" genes="GG/nG" />
 			<x-genetics-base-example name="gwelw max" genes="GG/nG" />
 		</div>
@@ -41,7 +41,7 @@
 	{{-- Bases --}}
 	<section id="bases">
 		<h1>Bases</h1>
-		<div class="grid lg:grid-cols-2 gap-4 mt-4">
+		<div class="grid lg:grid-cols-3 gap-4 mt-4">
 			<x-genetics-base-example name="stori" genes="ee AA/Aa/aa" />
 			<x-genetics-base-example name="siocled" genes="EbEb/EbE/Ebe AA/Aa" />
 			<x-genetics-base-example name="bae" genes="EE/Ee AA/Aa" />
@@ -53,7 +53,7 @@
 	{{-- Cream --}}
 	<section id="cream">
 		<h1>Cream <span class="normal-case text-sm">(CrCr)</span></h1>
-		<div class="grid lg:grid-cols-2 gap-4 mt-4">
+		<div class="grid lg:grid-cols-3 gap-4 mt-4">
 			<x-genetics-base-example name="cream stori" genes="ee AA/Aa/aa CrCr" />
 			<x-genetics-base-example name="cream siocled" genes="EbEb/EbE/Ebe AA/Aa CrCr" />
 			<x-genetics-base-example name="cream bae" genes="EE/Ee AA/Aa CrCr" />
@@ -65,7 +65,7 @@
 	{{-- Butter --}}
 	<section id="butter">
 		<h1>Butter <span class="normal-case text-sm">(nCr)</span></h1>
-		<div class="grid lg:grid-cols-2 gap-4 mt-4">
+		<div class="grid lg:grid-cols-3 gap-4 mt-4">
 			<x-genetics-base-example name="butter stori" genes="ee AA/Aa/aa nCr" />
 			<x-genetics-base-example name="butter siocled" genes="EbEb/EbE/Ebe AA/Aa nCr" />
 			<x-genetics-base-example name="butter bae" genes="EE/Ee AA/Aa nCr" />

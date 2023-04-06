@@ -28,3 +28,7 @@ Route::get('/genetics', function () {
     return view('genetics');
 });
 
+Route::get('/breakdown', function () {
+    return view('breakdown');
+});
+
